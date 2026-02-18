@@ -1,0 +1,464 @@
+
+alias $invisible 1.0 1.0 1.0 0.0 0.4 linear
+alias $visible 1.0 1.0 1.0 1.0 0.4 linear
+
+alias $invisibleQ 1.0 1.0 1.0 0.0 0.2 linear
+alias $visibleQ 1.0 1.0 1.0 1.0 0.2 linear
+
+alias $invisibleL 1.0 1.0 1.0 0.0 1.7 linear
+alias $visibleL 1.0 1.0 1.0 1.0 0.7 linear
+
+alias $invisibleV 1.0 1.0 1.0 0.0
+alias $visibleV 1.0 1.0 1.0 1.0
+
+alias $invisibleO 1.0 1.0 1.0 0.0 0.0 linear
+alias $visibleO 1.0 1.0 1.0 1.0 0.0 linear
+
+alias $arcNo 0.5 0.6 0.5 0.6 0.5 0.5 1.0 1.8
+alias $arcBar 0.5 0.57 0.5 0.57 1.0 1.0 1.0 1.8
+alias $arcTitle 0.5 0.49 0.5 0.49 0.5 0.5 1.0 1.8
+
+alias $cgLeft 0.1 0.5 0.1 0.5 0.53 0.53
+alias $cgCenter 0.5 0.5 0.5 0.5 0.53 0.53
+alias $cgRight 0.9 0.5 0.9 0.5 0.53 0.53
+
+alias $cgClose 0.5 0.5 0.5 0.5 1.0 1.0
+
+alias $cgShiftLeft -90 0 0.95 outquad
+alias $cgShiftRight 90 0 0.95 outquad
+
+alias $eveningLight 0.95 0.42 0.13 0.25 0.0 linear
+alias $graySpaceLight 0.69 0.08 0.3 0.25 0.0 linear
+alias $monochrome 0.0 0.0 0.0 1.0 0.0 linear
+alias $yellowLight 1.0 0.96 0.64 0.25 0.0 linear
+
+alias $bgLeft 0.2 0.6 0.2 0.6 0.7 0.7
+alias $bgCenter 0.5 0.6 0.5 0.6 0.7 0.7
+alias $bgRight 0.8 0.6 0.8 0.6 0.7 0.7
+
+alias $bgLeftTop 0.2 1.0 0.2 1.0 0.7 0.7
+alias $bgCenterTop 0.5 1.0 0.5 1.0 0.7 0.7
+alias $bgRightTop 0.8 1.0 0.8 1.0 0.7 0.7
+
+alias $bgFadeIn 1.0 0.7
+alias $IbgFadeIn 1.0 0.0
+
+alias $charShowLeft 0.5 0.5 0.27 0.03 1.0 1.0 1.0 0.4
+alias $charShowCenter 0.5 0.5 0.5 0.03 1.0 1.0 1.0 0.4
+alias $charShowRight 0.5 0.5 0.73 0.03 1.0 1.0 1.0 0.4
+alias $callLeft 0.5 0.5 0.23 0.03 1.0 1.0 1.0 0.0
+
+alias $charShowBigZoomLeft 0.5 0.5 0.27 -0.48 1.5 1.5 1.0 0.4
+alias $charShowBigZoomCenter 0.5 0.5 0.5 -0.48 1.5 1.5 1.0 0.4
+alias $charShowBigZoomRight 0.5 0.5 0.73 -0.48 1.5 1.5 1.0 0.4
+
+alias $charShowZoomLeft 0.5 0.5 0.27 -0.06 1.2 1.2 1.0 0.4
+alias $charShowZoomCenter 0.5 0.5 0.5 -0.06 1.2 1.2 1.0 0.4
+alias $charShowZoomRight 0.5 0.5 0.73 -0.06 1.2 1.2 1.0 0.4
+
+alias $charShowOffLeft 0.5 0.5 0.06 0.03 1.0 1.0 1.0 0.4
+alias $charShowOffRight 0.5 0.5 0.94 0.03 1.0 1.0 1.0 0.4
+
+alias $charShowNearLeft 0.5 0.5 0.16 0.03 1.0 1.0 1.0 0.4
+alias $charShowNearRight 0.5 0.5 0.84 0.03 1.0 1.0 1.0 0.4
+
+alias $charShowBackLeft 0.37 0.5 0.37 0.03 1.0 1.0 1.0 0.4
+alias $charShowBackRight 0.63 0.5 0.63 0.03 1.0 1.0 1.0 0.4
+
+alias $bgShiftLeft 850 0 0.95 outquad
+alias $bgShiftRight -850 0 0.95 outquad
+
+alias $bgShiftSuperLeft 1700 0 0.95 outquad
+alias $bgShiftSuperRight -1700 0 0.95 outquad
+
+alias $bgShiftSuperSlowLeft 1700 0 1.9 outquad
+alias $bgShiftSuperSlowRight -1700 0 1.9 outquad
+
+alias $bgPanLeft 850 0 2.5 outquad
+alias $bgPanRight -850 0 2.5 outquad
+
+alias $bgSlowLeft 850 0 3.3 outquad
+alias $bgSlowRight -850 0 3.3 outquad
+
+alias $charShiftLeft -850 0 0.95 outquad
+alias $charShiftRight 850 0 0.95 outquad
+
+alias $charShiftQuickNearLeft -425 0 0.47 outquad
+alias $charShiftQuickNearRight 425 0 0.47 outquad
+
+alias $charShiftSwiftNearLeft -425 0 0.71 outquad
+alias $charShiftSwiftNearRight 425 0 0.71 outquad
+
+alias $charShiftQuickLeft -850 0 0.47 outquad
+alias $charShiftQuickRight 850 0 0.47 outquad
+
+alias $bgShiftQuickLeft 850 0 0.47 outquad
+alias $bgShiftQuickRight -850 0 0.47 outquad
+
+alias $charShiftNearLeft -425 0 0.95 outquad
+alias $charShiftNearRight 425 0 0.95 outquad
+
+alias $charShiftNearQuickLeft -425 0 0.47 outquad
+alias $charShiftNearQuickRight 425 0 0.47 outquad
+
+alias $charShiftSuperLeft -1275 0 0.95 outquad
+alias $charShiftSuperRight 1275 0 0.95 outquad
+
+alias $charShiftDoubleLeft -1700 0 0.95 outquad
+alias $charShiftDoubleRight 1700 0 0.95 outquad
+
+alias $charShiftOmegaLeft -2125 0 0.95 outquad
+alias $charShiftOmegaRight 2125 0 0.95 outquad
+
+alias $charShiftUltraLeft -2550 0 0.95 outquad
+alias $charShiftUltraRight 2550 0 0.95 outquad
+
+alias $smallMoveLeft -50 0 0.6 outquad
+alias $smallMoveRight 50 0 0.6 outquad
+
+alias $suddenDrop 0 510 0.6 outquad
+alias $suddenDropQ 0 510 0.3 outquad
+alias $slowRise 0 -510 4.0 outquad
+alias $slowerRise 0 -1020 4.0 outquad
+alias $slowishRise 0 -510 2.0 outquad
+
+alias $charShowFloorLeft 0.5 0.5 0.27 0.46 1.0 1.0 1.0 0.4
+alias $charShowFloorCenter 0.5 0.5 0.5 0.46 1.0 1.0 1.0 0.4
+alias $charShowFloorRight 0.5 0.5 0.73 0.46 1.0 1.0 1.0 0.4
+
+alias $charSit 0 -60 0.6 inoutcubic
+
+
+alias $begin "begin" "sound/begin.ogg" 1.0
+alias $flashforwardA "flashforwardA" "sound/flashforwardA.ogg" 1.0
+alias $flashforwardB "flashforwardB" "sound/flashforwardB.ogg" 1.0
+alias $flashforwardC "flashforwardC" "sound/flashforwardC.ogg" 1.0
+alias $flashforwardD "flashforwardD" "sound/flashforwardD.ogg" 1.0
+alias $ambFlashforward "ambFlashforward" "sound/ambFlashforward.ogg" 0.0 true
+
+alias $impactDeep "impactDeep" "sound/impactDeep.ogg" 1.0
+alias $impactPulse "impactPulse" "sound/impactPulse.ogg" 1.0
+alias $impactTonal "impactTonal" "sound/impactTonal.ogg" 1.0
+alias $impactDeepTech "impactDeepTech" "sound/impactDeepTech.ogg" 1.0
+alias $impactPulseChroma "impactPulseChroma" "sound/impactPulseChroma.ogg" 1.0
+alias $impactHeartFast "impactHeartFast" "sound/impactHeartFast.ogg" 1.0
+alias $impactAnnoyingHacker "impactAnnoyingHacker" "sound/impactAnnoyingHacker.ogg" 1.0
+alias $impactAnnoyingHackerLong "impactAnnoyingHackerLong" "sound/impactAnnoyingHackerLong.ogg" 1.0
+alias $noiseStoryLoudLoop "noiseStoryLoudLoop" "sound/noiseStoryLoudLoop.ogg" 1.0 true
+alias $emphasisA "emphasisA" "sound/emphasisA.ogg" 1.0
+alias $emphasisB "emphasisB" "sound/emphasisB.ogg" 1.0
+
+alias $phoneRingSimple "phoneRingSimple" "sound/phoneRingSimple.ogg" 1.0
+alias $phoneRingSimpleLoop "phoneRingSimpleLoop" "sound/phoneRingSimple.ogg" 1.0 true
+alias $phoneAnswer "phoneAnswer" "sound/phoneAnswer.ogg" 1.0
+alias $phoneEndCall "phoneEndCall" "sound/phoneEndCall.ogg" 1.0
+alias $phoneNotif "phoneNotif" "sound/phoneNotif.ogg" 1.0
+alias $phoneVibrate "phoneVibrate" "sound/phoneVibrate.ogg" 1.0
+alias $beepGeneric "beepGeneric" "sound/beepGeneric.ogg" 1.0
+
+alias $paperRustleA "paperRustleA" "sound/paperRustle.ogg" 1.0
+alias $paperRustleB "paperRustleB" "sound/paperRustleB.ogg" 1.0
+alias $paperRustleC "paperRustleC" "sound/paperRustleC.ogg" 1.0
+alias $paperCrumpleA "paperCrumpleA" "sound/paperCrumple.ogg" 1.0
+alias $paperCrumpleB "paperCrumpleB" "sound/paperCrumpleB.ogg" 1.0
+alias $paperSignA "paperSignA" "sound/paperSignA.ogg" 1.0
+alias $paperSignB "paperSignB" "sound/paperSignB.ogg" 1.0
+alias $drawingA "drawingA" "sound/drawingA.ogg" 1.0
+alias $drawingB "drawingB" "sound/drawingB.ogg" 1.0
+alias $drawingC "drawingC" "sound/drawingC.ogg" 1.0
+alias $drawingD "drawingD" "sound/drawingD.ogg" 1.0
+
+alias $thudLightA "thudLightA" "sound/thudLightA.ogg" 1.0
+alias $thudLightB "thudLightB" "sound/thudLightB.ogg" 1.0
+alias $thudLightC "thudLightC" "sound/thudLightC.ogg" 1.0
+alias $thudHeavyA "thudHeavyA" "sound/thudHeavyA.ogg" 1.0
+alias $clothingRustleA "clothingRustleA" "sound/clothingRustleA.ogg" 1.0
+alias $clothingRustleB "clothingRustleB" "sound/clothingRustleB.ogg" 1.0
+alias $clothingRustleC "clothingRustleC" "sound/clothingRustleC.ogg" 1.0
+alias $clothingRustleD "clothingRustleD" "sound/clothingRustleD.ogg" 1.0
+alias $clothingRustleE "clothingRustleE" "sound/clothingRustleE.ogg" 1.0
+alias $clothingRustleF "clothingRustleF" "sound/clothingRustleF.ogg" 1.0
+
+alias $objectSlideA "objectSlideA" "sound/objectSlideA.ogg" 1.0
+alias $objectFumbleA "objectFumbleA" "sound/objectFumbleA.ogg" 1.0
+alias $objectFumbleB "objectFumbleB" "sound/objectFumbleB.ogg" 1.0
+alias $objectClickyA "objectClickyA" "sound/objectClickyA.ogg" 1.0
+alias $objectMetalA "objectMetalA" "sound/objectMetalA.ogg" 1.0
+alias $objectMetalB "objectMetalB" "sound/objectMetalB.ogg" 1.0
+alias $objectMetalC "objectMetalC" "sound/objectMetalC.ogg" 1.0
+alias $objectMetalD "objectMetalC" "sound/objectMetalD.ogg" 1.0
+alias $objectCrunchyA "objectCrunchyA" "sound/objectCrunchyA.ogg" 1.0
+alias $objectTickA "objectTickA" "sound/objectTickA.ogg" 1.0
+alias $objectTickB "objectTickB" "sound/objectTickB.ogg" 1.0
+alias $objectTickC "objectTickC" "sound/objectTickC.ogg" 1.0
+alias $objectTickD "objectTickD" "sound/objectTickD.ogg" 1.0
+
+alias $typingTechA "typingTechA" "sound/typingTechA.ogg" 1.0
+alias $typingTechB "typingTechB" "sound/typingTechB.ogg" 1.0
+alias $typingTechC "typingTechC" "sound/typingTechC.ogg" 1.0
+alias $typingTechD "typingTechD" "sound/typingTechD.ogg" 1.0
+
+alias $distantNoiseA "distantNoiseA" "sound/distantNoiseA.ogg" 1.0
+alias $heartbeatA "heartbeatA" "sound/heartbeatA.ogg" 1.0
+alias $heartbeatB "heartbeatB" "sound/heartbeatB.ogg" 1.0
+alias $schoolBellShort "schoolBellShort" "sound/schoolBellShort.ogg" 0.9
+alias $waterRunning "waterRunning" "sound/waterRunning.ogg" 1.0
+
+alias $footstepsA "footstepsA" "sound/footstepsA.ogg" 1.0
+alias $footstepsALoop "footstepsALoop" "sound/footstepsA.ogg" 1.0 true
+alias $footstepsAFast "footstepsAFast" "sound/footstepsAFast.ogg" 1.0
+alias $footstepsB "footstepsB" "sound/footstepsB.ogg" 1.0
+alias $footstepsBLoop "footstepsBLoop" "sound/footstepsB.ogg" 1.0 true
+alias $footstepsC "footstepsC" "sound/footstepsC.ogg" 1.0
+alias $footstepsCLoop "footstepsCLoop" "sound/footstepsC.ogg" 1.0 true
+alias $footstepsCFast "footstepsCFast" "sound/footstepsCFast.ogg" 1.0
+alias $footstepsDA "footstepsDA" "sound/footstepsDA.ogg" 1.0
+alias $footstepsDB "footstepsDB" "sound/footstepsDB.ogg" 1.0
+alias $footstepsDC "footstepsDC" "sound/footstepsDC.ogg" 1.0
+
+alias $doorKnock "doorKnock" "sound/doorKnock.ogg" 1.0
+alias $doorClose "doorClose" "sound/doorClose.ogg" 1.0
+alias $doorCloseHeavyA "doorCloseHeavyA" "sound/doorCloseHeavyA.ogg" 1.0
+alias $doorCloseHeavyB "doorCloseHeavyB" "sound/doorCloseHeavyB.ogg" 1.0
+alias $doorOpenA "doorOpenA" "sound/doorOpenA.ogg" 1.0
+alias $doorOpenALoop "doorOpenALoop" "sound/doorOpenA.ogg" 1.0 true
+alias $doorOpenCar "doorOpenCar" "sound/doorOpenCar.ogg" 1.0
+alias $doorCloseCar "doorCloseCar" "sound/doorCloseCar.ogg" 1.0
+alias $carInteriorMoving "carInteriorMoving" "sound/carInteriorMoving.ogg" 1.0
+
+alias $humanPunchA "humanPunchA" "sound/humanPunchA.ogg" 1.0
+alias $humanPunchB "humanPunchB" "sound/humanPunchB.ogg" 1.0
+alias $humanPunchC "humanPunchC" "sound/humanPunchC.ogg" 1.0
+alias $humanSnapFinger "humanSnapFinger" "sound/humanSnapFinger.ogg" 1.0
+
+alias $ambPark "ambPark" "sound/ambPark.ogg" 0.0 true
+alias $ambSchoolHall "ambSchoolHall" "sound/ambSchoolHall.ogg" 0.0 true
+alias $ambCafeteria "ambCafeteria" "sound/ambCafeteria.ogg" 0.0 true
+alias $ambOffice "ambOffice" "sound/ambInteriorOffice.ogg" 0.0 true
+alias $ambClassroom "ambClassroom" "sound/ambClassroom.ogg" 0.0 true
+alias $ambCityA "ambCityA" "sound/ambCityA.ogg" 0.0 true
+alias $ambCityB "ambCityB" "sound/ambCityB.ogg" 0.0 true
+alias $ambTrainInterior "ambTrainInterior" "sound/ambTrainInterior.ogg" 0.0 true
+alias $ambAARC "ambAARC" "sound/ambInteriorOffice.ogg" 0.0 true
+alias $ambRiverside "ambRiverside" "sound/ambRiverside.ogg" 0.0 true
+alias $ambCityHackers "ambCityHackers" "sound/ambCityHackers.ogg" 0.0 true
+alias $ambWashroom "ambWashroom" "sound/ambWashroom.ogg" 0.0 true
+alias $ambNightInterior "ambNightInterior" "sound/ambNightInterior.ogg" 0.0 true
+alias $ambNightInteriorB "ambNightInteriorB" "sound/ambNightInteriorB.ogg" 0.0 true
+alias $ambNightExterior "ambNightExterior" "sound/ambNightExterior.ogg" 0.0 true
+alias $ambShopKeeper "ambShopKeeper" "sound/ambShopKeeper.ogg" 0.0 true
+
+alias $ambStoryBedroom "ambStoryBedroom" "sound/storyBedroom.ogg" 0.0 true
+alias $ambAyameBedroom "ambAyameBedroom" "sound/ayameBedroom.ogg" 0.0 true
+alias $ambIrisBedroom "ambIrisBedroom" "sound/irisBedroom.ogg" 0.0 true
+alias $ambMeiBedroom "ambMeiBedroom" "sound/meiBedroom.ogg" 0.0 true
+alias $ambNiaBedroom "ambNiaBedroom" "sound/niaBedroom.ogg" 0.0 true
+
+alias $ambGuitar "ambGuitar" "sound/ambGuitar.ogg" 0.0 true
+alias $ambOldGameLoop "ambOldGameLoop" "sound/ambOldGameLoop.ogg" 0.0 true
+alias $ambGenericPartyLoop "ambGenericPartyLoop" "sound/ambGenericPartyLoop.ogg" 0.0 true
+alias $ambNighmare "ambNighmare" "sound/ambNighmare.ogg" 0.0 true
+alias $nightmareAccent "nightmareAccent" "sound/nightmareAccent.ogg" 1.0
+alias $ambMovieLoop "ambMovieLoop" "sound/ambMovieLoop.ogg" 0.0 true
+alias $movieEnd "movieEnd" "sound/movieEnd.ogg" 1.0
+alias $movieExplosion "movieExplosion" "sound/movieExplosion.ogg" 1.0
+
+alias $ambBeginWind "ambBeginWind" "sound/ambBeginWind.ogg" 0.0 true
+alias $ambChatterMindscape "ambChatterMindscape" "sound/ambChatterMindscape.ogg" 0.0 true
+alias $ambWindMindscape "ambWindMindscape" "sound/ambWindMindscape.ogg" 0.0 true
+alias $ambLightMindscape "ambLightMindscape" "sound/ambLightMindscape.ogg" 0.0 true
+alias $ambDeepMindscape "ambDeepMindscape" "sound/ambDeepMindscape.ogg" 0.0 true
+alias $ambTonalMindscape "ambTonalMindscape" "sound/ambTonalMindscape.ogg" 0.0 true
+alias $ambAngryMindscape "ambAngryMindscape" "sound/ambAngryMindscape.ogg" 0.0 true
+alias $ambMindscapeHacker "ambMindscapeHacker" "sound/ambMindscapeHacker.ogg" 0.0 true
+
+alias $mindscapeEruptionA "mindscapeEruptionA" "sound/mindscapeEruptionA.ogg" 1.0
+alias $diveEffectA "diveEffectA" "sound/diveEffectA.ogg" 1.0
+alias $diveGlassyA "diveGlassyA" "sound/diveGlassyA.ogg" 1.0
+alias $impactShroud "impactShroud" "sound/impactShroud.ogg" 1.0
+alias $impactDiveA "impactDiveA" "sound/impactDiveA.ogg" 1.0
+alias $impactDiveB "impactDiveB" "sound/impactDiveB.ogg" 1.0
+alias $heartbeatDive "heartbeatDive" "sound/heartbeatDive.ogg" 1.0
+alias $diveFailA "diveFailA" "sound/diveFailA.ogg" 1.0
+alias $diveFailB "diveFailB" "sound/diveFailB.ogg" 1.0
+alias $diveFailC "diveFailC" "sound/diveFailC.ogg" 1.0
+
+alias $tapeLoop "tapeLoop" "sound/tapeLoop.ogg" 0.0 true
+alias $gracefallShort "gracefallShort" "sound/gracefallShort.ogg" 1.0
+alias $ambGracefallSirenLoop "ambGracefallSirenLoop" "sound/ambGracefallSirenLoop.ogg" 0.0 true
+alias $ambGracefallLoop "ambGracefallLoop" "sound/ambGracefallLoop.ogg" 0.0 true
+alias $ambGracefallWindLoop "ambGracefallWindLoop" "sound/ambGracefallWindLoop.ogg" 0.0 true
+alias $gracefallExplosionA "gracefallExplosionA" "sound/gracefallExplosionA.ogg" 1.0
+alias $gracefallExplosionB "gracefallExplosionB" "sound/gracefallExplosionB.ogg" 1.0
+alias $gracefallExplosionC "gracefallExplosionC" "sound/gracefallExplosionC.ogg" 1.0
+alias $gracefallExplosionD "gracefallExplosionD" "sound/gracefallExplosionD.ogg" 1.0
+alias $gracefallExplosionE "gracefallExplosionE" "sound/gracefallExplosionE.ogg" 1.0
+alias $fragmentPulse "fragmentPulse" "sound/fragmentPulse.ogg" 1.0
+alias $fragmentNoise "fragmentNoise" "sound/fragmentNoise.ogg" 1.0
+
+
+alias $bgmCommonFadeIn 0.6 1.0
+
+alias $City "City" "bgm/City.ogg" 0.0 true
+alias $Joyful "Joyful" "bgm/Joyful.ogg" 0.0 true 0:84705
+alias $Reflection "Reflection" "bgm/Reflection.ogg" 0.0 true 450:76585
+
+alias $LatentDualityA "LatentDualityA" "bgm/Latent_Duality_scen_A.ogg" 0.6 true 0:67764
+alias $Enigma_scen "Enigma_scen" "bgm/Enigma_scen.ogg" 0.6 true
+alias $Opening "Opening" "bgm/Opening.ogg" 0.6 true
+
+alias $MainTitle "MainTitle" "bgm/MainTitle.ogg" 0.6 true
+alias $InBetween "InBetween" "bgm/InBetween.ogg" 0.6 true 0:83484
+alias $Togetherness "Togetherness" "bgm/Togetherness.ogg" 0.6 true 0:73768
+alias $ResultClear "ResultClear" "bgm/ResultClear.ogg" 0.6 true 1100:53940
+alias $ResultFail "ResultFail" "bgm/ResultFail.ogg" 0.6 true 1100:53940
+alias $SelectLite "SelectLite" "bgm/SelectLite.ogg" 0.0 true 0:46545
+
+alias $NiaTheme "NiaTheme" "bgm/NiaTheme.ogg" 0.6 true 0:80090
+alias $MeiTheme "MeiTheme" "bgm/MeiTheme.ogg" 0.6 true 0:80090
+alias $AyameTheme "AyameTheme" "bgm/AyameTheme.ogg" 0.6 true 0:80090
+alias $IrisTheme "IrisTheme" "bgm/IrisTheme.ogg" 0.6 true 0:80090
+alias $StoryTheme "StoryTheme" "bgm/StoryTheme.ogg" 0.6 true 0:80090
+
+
+alias $Aftermath "Aftermath" "bgm/Aftermath.ogg" 0.6 true
+alias $ComeBack "ComeBack" "bgm/ComeBack.ogg" 0.6 true
+alias $DiveAA "DiveAA" "bgm/Dive.ogg" 0.6 true 0:68124
+alias $DiveAB "DiveAB" "bgm/Dive.ogg" 0.6 true 0:96918
+alias $DiveAC "DiveAC" "bgm/Dive.ogg" 0.6 true
+alias $DiveBB "DiveBB" "bgm/Dive.ogg" 0.6 true 68124:96918
+alias $DiveBC "DiveBC" "bgm/Dive.ogg" 0.6 true 68124:155800
+alias $DiveCC "DiveCC" "bgm/Dive.ogg" 0.6 true 96918:155800
+alias $Encounter "Encounter" "bgm/Encounter.ogg" 0.6 true 0:80418
+alias $FreyaTheme "FreyaTheme" "bgm/FreyaTheme.ogg" 0.6 true 0:128000
+alias $RMI "RMI" "bgm/RMI.ogg" 0.6 true
+alias $RMITwo "RMITwo" "bgm/RMITwo.ogg" 0.6 true 3000:75000
+alias $SelectNormal "SelectNormal" "bgm/SelectNormal.ogg" 0.6 true 0:46545
+alias $Severity "Severity" "bgm/Severity.ogg" 0.6 true
+alias $Shadows "Shadows" "bgm/Shadows.ogg" 0.6 true
+alias $Thinking "Thinking" "bgm/Thinking.ogg" 0.6 true 0:80842
+
+alias $blackpx "blackpx" "effects/blackpx.png" 0.5 0.5 0.5 0.5 8650.0 4320.0
+alias $whitepx "whitepx" "effects/whitepx.png" 0.5 0.5 0.5 0.5 8650.0 4320.0
+
+alias $chaos "chaos" "bg/chaos.jpg"
+alias $darkZero "dark_zero" "bg/dark_zero.jpg"
+alias $diveBasic "dive_basic" "bg/dive_basic.jpg"
+alias $diveBasicTransparent "dive_basic_transparent" "bg/dive_basic_transparent.png"
+alias $diveClear "dive_clear" "bg/dive_clear.jpg"
+alias $diveClearTransparent "dive_clear_transparent" "bg/dive_clear_transparent.png"
+alias $diveA "dive_A" "bg/dive_A.jpg"
+
+alias $artroom "artroom" "bg/artroom.jpg"
+alias $bedroomAyame "bedroom_ayame" "bg/bedroom_ayame.jpg"
+alias $bedroomIris "bedroom_iris" "bg/bedroom_iris.jpg"
+alias $bedroomMei "bedroom_mei" "bg/bedroom_mei.jpg"
+alias $bedroomNia "bedroom_nia" "bg/bedroom_nia.jpg"
+alias $bedroomAyameNight "bedroom_ayame_night" "bg/bedroom_ayame_night.jpg"
+alias $bedroomIrisNight "bedroom_iris_night" "bg/bedroom_iris_night.jpg"
+alias $bedroomMeiNight "bedroom_mei_night" "bg/bedroom_mei_night.jpg"
+alias $bedroomNiaNight "bedroom_nia_night" "bg/bedroom_nia_night.jpg"
+alias $bedroomStory "bedroom_story" "bg/bedroom_story.jpg"
+alias $cafeShops "cafe_shops" "bg/cafe_shops.jpg"
+alias $cafeteria "cafeteria" "bg/cafeteria.jpg"
+alias $cityLibrary "city_library" "bg/city_library.jpg"
+alias $cityStreetA "city_street_A" "bg/city_street_A.jpg"
+alias $cityStreetB "city_street_B" "bg/city_street_B.jpg"
+alias $classroom "classroom" "bg/classroom.jpg"
+alias $homeFreya "home_freya" "bg/home_freya.jpg"
+alias $meetingRoomA "meeting_room_A" "bg/meeting_room_A.jpg"
+alias $meetingRoomB "meeting_room_B" "bg/meeting_room_B.jpg"
+alias $meetingRoomBEve "meeting_room_B_evening" "bg/meeting_room_B_evening.jpg"
+alias $meetingRoomBNight "meeting_room_B_night" "bg/meeting_room_B_night.jpg"
+alias $meiStudio "mei_studio" "bg/mei_studio.jpg"
+alias $meiStudioNight "mei_studio_night" "bg/mei_studio_night.jpg"
+alias $officeA "office_A" "bg/office_A.jpg"
+alias $officeB "office_B" "bg/office_B.jpg"
+alias $park "park" "bg/park.jpg"
+alias $parkNight "park_night" "bg/park_night.jpg"
+alias $publicBath "public_bath" "bg/public_bath.jpg"
+alias $riverbankA "riverbank_A" "bg/riverbank_A.jpg"
+alias $riverbankB "riverbank_B" "bg/riverbank_B.jpg"
+alias $schoolGate "school_gate" "bg/school_gate.jpg"
+alias $schoolHallA "school_hall_A" "bg/school_hall_A.jpg"
+alias $schoolHallANight "school_hall_A_night" "bg/school_hall_A_night.jpg"
+alias $schoolHallB "school_hall_B" "bg/school_hall_B.jpg"
+alias $schoolRooftop "school_rooftop" "bg/school_rooftop.jpg"
+alias $schoolUtilityA "school_utility_A" "bg/school_utility_A.jpg"
+alias $trainDay "train_day" "bg/train_day.jpg"
+alias $trainEvening "train_evening" "bg/train_evening.jpg"
+alias $trainNight "train_night" "bg/train_night.jpg"
+alias $workshop "workshop" "bg/workshop.jpg"
+alias $workshopNight "workshop_night" "bg/workshop_night.jpg"
+
+
+alias $fellHideout "fell_hideout" "bg/fell_hideout.jpg"
+alias $mindscapeFellEnd "mindscape_fell_end" "bg/mindscape_fell_end.jpg"
+alias $mindscapeFellZero "mindscape_fell_zero" "bg/mindscape_fell_zero.jpg"
+alias $otherCityIuxta "other_city_iuxta" "bg/other_city_iuxta.jpg"
+alias $otherCityRoom "other_city_room" "bg/other_city_room.jpg"
+alias $otherCityStreet "other_city_street" "bg/other_city_street.jpg"
+alias $seikoAmphitheatre "seiko_amphitheatre" "bg/seiko_amphitheatre.jpg"
+alias $seikoCampus "seiko_campus" "bg/seiko_campus.jpg"
+
+alias $container show "container" "effects/item-container.png" 0.5 0.71 0.5 0.71 0.95 1.05 1.0
+alias $cutinCenter 0.5 0.72 0.5 0.72 0.51 0.51
+
+alias $triCenter show "triCenter" "effects/triangle_mask_center.png" 0.5 0.5 0.5 0.5 0.7 0.7 1.0
+alias $triLeft show "triLeft" "effects/triangle_mask_left.png" 0.0 0.5 0.0 0.5 0.7 0.7 1.0
+alias $triRight show "triRight" "effects/triangle_mask_right.png" 1.0 0.5 1.0 0.5 0.7 0.7 1.0
+alias $darkeningA show "darkeningA" "effects/darkening_A.png" 0.5 0.5 0.5 0.5 2.0 2.0 1.0
+alias $darkeningB show "darkeningB" "effects/darkening_B.png" 0.5 0.5 0.5 0.5 2.0 2.0 1.0
+alias $darkeningC show "darkeningC" "effects/darkening_C.png" 0.5 0.5 0.5 0.5 2.0 2.0 1.0
+
+
+
+alias $IcharShowLeft 0.5 0.5 0.27 0.03 1.0 1.0 1.0 0.0
+alias $IcharShowCenter 0.5 0.5 0.5 0.03 1.0 1.0 1.0 0.0
+alias $IcharShowRight 0.5 0.5 0.73 0.03 1.0 1.0 1.0 0.0
+alias $IcallLeft 0.5 0.5 0.23 0.03 1.0 1.0 1.0 0.0
+
+alias $IcharShowOffLeft 0.5 0.5 0.06 0.03 1.0 1.0 1.0 0.0
+alias $IcharShowOffRight 0.5 0.5 0.94 0.03 1.0 1.0 1.0 0.0
+
+alias $IcharShowNearLeft 0.5 0.5 0.16 0.03 1.0 1.0 1.0 0.0
+alias $IcharShowNearRight 0.5 0.5 0.84 0.03 1.0 1.0 1.0 0.0
+
+alias $IcharShowBackLeft 0.37 0.5 0.37 0.03 1.0 1.0 1.0 0.0
+alias $IcharShowBackRight 0.63 0.5 0.63 0.03 1.0 1.0 1.0 0.0
+
+alias $repeat repeat 65535
+
+
+
+alias $bgShiftLeftO 850 0 0.0 outquad
+alias $bgShiftRightO -850 0 0.0 outquad
+
+alias $bgShiftSuperLeftO 1700 0 0.0 outquad
+alias $bgShiftSuperRightO -1700 0 0.0 outquad
+
+alias $charShiftLeftO -850 0 0.0 outquad
+alias $charShiftRightO 850 0 0.0 outquad
+
+alias $charShiftNearLeftO -425 0 0.0 outquad
+alias $charShiftNearRightO 425 0 0.0 outquad
+
+alias $charShiftSuperLeftO -1275 0 0.0 outquad
+alias $charShiftSuperRightO 1275 0 0.0 outquad
+
+alias $charShiftDoubleLeftO -1700 0 0.0 outquad
+alias $charShiftDoubleRightO 1700 0 0.0 outquad
+
+alias $charShiftOmegaLeftO -2125 0 0.0 outquad
+alias $charShiftOmegaRightO 2125 0 0.0 outquad
+
+alias $charShiftUltraLeftO -2550 0 0.0 outquad
+alias $charShiftUltraRightO 2550 0 0.0 outquad
+
+alias $smallMoveLeftO -50 0 0.0 outquad
+alias $smallMoveRightO 50 0 0.0 outquad
+
+alias $suddenDropO 0 510 0.0 outquad
+alias $slowRiseO 0 -510 0.0 outquad
+alias $slowerRiseO 0 -1020 0.0 outquad
+alias $slowishRiseO 0 -510 0.0 outquad

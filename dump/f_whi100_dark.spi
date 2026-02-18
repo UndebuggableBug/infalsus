@@ -1,0 +1,9 @@
+parameters $blockName
+
+$blockName
+{
+	show "whitepx" "effects/whitepx.png" 0.5 0.5 0.5 0.5 8650.0 4320.0 1.0 0.1
+	delay 0.2
+	show "blackpx_X" "effects/blackpx.png" 0.5 0.5 0.5 0.5 8650.0 4320.0 1.0 0.0
+	hide "whitepx" 0.4
+}

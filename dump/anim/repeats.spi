@@ -1,0 +1,63 @@
+parameters $blockName $target
+
+$blockName
+{
+	bgm volume $target 0.0 0.3
+	delay 0.6
+	bgm volume $target 0.8 0.3
+	delay 0.1
+	bgm volume $target 0.0 0.3
+	delay 0.5
+	bgm volume $target 0.8 0.3
+	delay 0.1
+	bgm volume $target 0.0 0.3
+	delay 0.1
+	bgm volume $target 0.8 0.3
+	delay 1.0
+	bgm volume $target 0.0 0.3
+	delay 0.8
+	bgm volume $target 0.8 0.3
+	delay 2.0
+	bgm volume $target 0.0 0.3
+	delay 0.2
+	bgm volume $target 0.8 0.3
+	delay 0.3
+	bgm volume $target 0.0 0.3
+	delay 0.4
+	bgm volume $target 0.8 0.3
+	delay 0.5
+	bgm volume $target 0.0 0.3
+	delay 1.4
+} $repeat
+
+"pulsing"
+{
+	effect chromatic 0.3 0.5 0.5 0.0 0.2
+	delay 0.2
+	effect chromatic 0.0 0.5 0.5 0.0 1.0
+	delay 1.0
+} $repeat
+
+"pulsing_2"
+{
+	effect chromatic 0.3 0.5 0.5 0.0 0.2
+	delay 0.2
+	effect chromatic 0.0 0.5 0.5 0.0 1.0
+	delay 2.65
+} $repeat
+
+"breathe"
+{
+	move $target 0 40 2.0 inoutquad
+	delay 2.1
+	move $target 0 -40 3.0 inoutquad
+	delay 3.1
+} $repeat
+
+"rhythm"
+{
+	move $target -20 0 3.8 inoutquad
+	delay 4.0
+	move $target 20 0 4.8 inoutquad
+	delay 5.0
+} $repeat

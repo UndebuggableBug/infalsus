@@ -1,0 +1,8 @@
+parameters $blockName
+
+$blockName
+{
+	effect chromatic 0.3 0.5 0.5 0.0 0.2
+	delay 0.2
+	effect chromatic 0.0 0.5 0.5 0.0 1.0
+}

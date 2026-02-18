@@ -1,0 +1,13 @@
+parameters $blockName $target
+
+$blockName
+{
+	delay 0.6
+	move $target 0 30 0.12 inoutcubic
+	delay 0.12
+	move $target 0 -30 0.15 inoutcubic
+	delay 0.15
+	move $target 0 30 0.12 inoutcubic
+	delay 0.12
+	move $target 0 -30 0.15 inoutcubic
+}

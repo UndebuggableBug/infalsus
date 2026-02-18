@@ -1,0 +1,9 @@
+parameters $blockName $target
+
+$blockName
+{
+	color $target 1.0 1.0 1.0 0.5 0.13 linear
+	delay 0.13
+	char_pose $target normal
+	color $target 1.0 1.0 1.0 1.0 0.13 linear
+}

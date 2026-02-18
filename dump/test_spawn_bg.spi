@@ -1,0 +1,6 @@
+parameters $bgName $bgAsset $ease $duration
+
+alias $defaultBgPos 0.5 0.5 0.5 0.5 0.5 0.5
+
+show $bgName $bgAsset $defaultBgPos 1.0 $duration
+scale $bgName 1.0 1.0 1.0 1.0 $duration $ease
